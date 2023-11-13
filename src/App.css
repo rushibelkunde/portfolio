@@ -2,5 +2,5 @@ body{
   height: 100%;
   width: 100%;
 
-  background-image: linear-gradient(to top, black, rgb(33, 33, 33));
+  background-color: black;
 }

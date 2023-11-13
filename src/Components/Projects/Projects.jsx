@@ -55,23 +55,23 @@ function Projects() {
         
     </div>
 
-    <h1 className='text-white text-xl text-center font-semibold mt-5'>More Projects</h1>
-    <div className='flex flex-col text-white justify-center items-center mt-3 font-semibold'>
-      <div className='flex items-center justify-between px-2 h-10 w-96 border border-zinc-600 rounded bg-zinc-900 mt-2'>
+    <h1 className='text-white text-xl text-center font-semibold mt-20'>More Projects</h1>
+    <div className='flex flex-col text-white justify-center items-center mt-3 font-semibold m-auto'>
+      <div className='flex items-center justify-between px-2 h-10 w-80 border border-zinc-600 rounded bg-zinc-900 mt-2'>
         <h1>Expense-Tracker</h1>
         <div className='flex items-center gap-2 font-thin justify-between'>
           <a href="https://github.com/rushibelkunde/Expense-Tracker" className='hover:text-green-400'>Github</a>
           <a href="https://rushibelkunde.github.io/Expense-Tracker/" className='hover:text-red-400'>Live</a>
         </div>
       </div>
-      <div className='flex items-center justify-between px-2 h-10 w-96 border border-zinc-600 rounded bg-zinc-900 mt-2'>
+      <div className='flex items-center justify-between px-2 h-10 w-80 border border-zinc-600 rounded bg-zinc-900 mt-2'>
         <h1>Youtube-Clone</h1>
         <div className='flex items-center gap-2 font-thin justify-between'>
           <a href="https://github.com/rushibelkunde/Youtube-Clone-React" className='hover:text-green-400'>Github</a>
           <a href="https://rushibelkunde.github.io/Youtube-Clone-React/" className='hover:text-red-400'>Live</a>
         </div>
       </div>
-      <div className='flex items-center justify-between px-2 h-10 w-96 border border-zinc-600 rounded bg-zinc-900 mt-2'>
+      <div className='flex items-center justify-between px-2 h-10 w-80 border border-zinc-600 rounded bg-zinc-900 mt-2'>
         <h1>Find-Recipe</h1>
         <div className='flex items-center gap-2 font-thin justify-between'>
           <a href="https://github.com/rushibelkunde/find-recipe" className='hover:text-green-400'>Github</a>

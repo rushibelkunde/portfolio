@@ -33,12 +33,12 @@ function Home() {
   return (
     <div className="w-full container m-auto h-screen flex text-white justify-center items-center bg-zinc-950">
 
-      <div className="flex flex-col gap-2  w-96">
+      <div className="flex flex-col gap-2 sm:w-fit mx-2 m-auto w-80">
 
         <p className=' text-zinc-400'>Namastey </p>
-        <h1 className='text-4xl font-bold'>{curName}</h1>
+        <h1 className='sm:text-4xl text-3xl font-bold '>{curName}</h1>
         <h3 className='title font-bold text-blue-100'>Full Stack Web Developer</h3>
-        <p className=' w-96'>Passionate and dedicated Full Stack Web Developer with a strong foundation in web technologies. Eager to Learn, contribute my
+        <p className=' w-96 '>Passionate and dedicated Full Stack Web Developer with a strong foundation in web technologies. Eager to Learn, contribute my
 skills and creativity to a collaborative and growth-oriented environment.</p>
 
         <div className='flex gap-3'>
