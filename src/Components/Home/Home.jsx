@@ -36,8 +36,8 @@ function Home() {
       <div className="flex flex-col gap-2 sm:w-fit mx-2 m-auto w-80">
 
         <p className=' text-zinc-400'>Namastey </p>
-        <h1 className='sm:text-5xl text-3xl font-bold '>{curName}</h1>
-        <h3 className='title font-bold text-blue-100  sm:text-3xl text-2xl'>Full Stack Web Developer</h3>
+        <h1 className='sm:text-4xl text-3xl font-bold '>{curName}</h1>
+        <h3 className='title font-bold text-blue-100  sm:text-2xl text-2xl'>Full Stack Web Developer</h3>
         <p className=' w-80 sm:w-96 font-medium text-zinc-100'>Passionate and dedicated Full Stack Web Developer with a strong foundation in web technologies. Eager to Learn, contribute my
 skills and creativity to a collaborative and growth-oriented environment.</p>
 

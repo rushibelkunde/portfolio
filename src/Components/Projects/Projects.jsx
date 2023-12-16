@@ -35,7 +35,7 @@ function Projects() {
     <div id='projects' className='container m-auto  bg-zinc-950 mt-40'>
     <h1  className='text-white text-4xl text-center font-bold' ref={titleRef}>Projects</h1>
 
-    <div  className='flex items-center justify-around flex-wrap gap-3 mt-10'>
+    <div  className='flex items-center justify-around flex-wrap gap-5 mt-10'>
 
       
 
@@ -48,8 +48,8 @@ function Projects() {
       <ProjectCard name={"Todo-App"} src={"todo-app.png"} live={"https://todo-app-rt5p.vercel.app/"} 
       git={"https://github.com/rushibelkunde/todo-app/"} skills={["React", "Express", "Postgres","JWT"]} />
 
-      <ProjectCard name={"App-advertisement"} src={"ads.png"} live={"https://rushibelkunde.github.io/density-assignment/"} 
-      git={"https://github.com/rushibelkunde/density-assignment/"} skills={["React", "GSAP-Animation"]} />
+      <ProjectCard name={"App-advertisement"} src={"ads.png"} live={"https://rushibelkunde.github.io/App-Advertise-UI/"} 
+      git={"https://github.com/rushibelkunde/App-Advertise-UI/"} skills={["React", "GSAP-Animation"]} />
 
       <ProjectCard name={"Photo-Folio"} src={"photo.png"} live={"https://rushibelkunde.github.io/photo-folio/"} 
       git={"https://github.com/rushibelkunde/photo-folio/"} skills={["React", "Firebase Storage"]} />
