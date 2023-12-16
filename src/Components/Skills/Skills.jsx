@@ -32,8 +32,8 @@ function Skills() {
   return (
 
     <div id='skills' className='w-full container m-auto  bg-zinc-950 text-white'>
-    <h1 className='text-center text-3xl font-bold' ref={titleRef}>Skills</h1>
-    <div  className='w-full flex-wrap gap-3 container bg-zinc-950 mt-5 pb-10 text-white flex items-center justify-around'>
+    <h1 className='text-center text-4xl font-bold' ref={titleRef}>Skills</h1>
+    <div  className='w-full flex-wrap gap-4 mb-2 container bg-zinc-950 mt-5 pb-10 text-white flex items-center justify-around'>
         <div className=' bg-zinc-900 p-4 rounded-md hover:bg-black'>
         <h1 className=' text-3xl font-semibold'>Front-End</h1>
         <ul className='flex  w-40 flex-wrap mt-2'>

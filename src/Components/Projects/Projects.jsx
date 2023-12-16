@@ -33,22 +33,25 @@ function Projects() {
   return (
 
     <div id='projects' className='container m-auto  bg-zinc-950 mt-40'>
-    <h1  className='text-white text-3xl text-center font-bold' ref={titleRef}>Projects</h1>
+    <h1  className='text-white text-4xl text-center font-bold' ref={titleRef}>Projects</h1>
 
     <div  className='flex items-center justify-around flex-wrap gap-3 mt-10'>
 
       
 
-      <ProjectCard name={"E-Commerce-App"} src={"buy-busy.png"} live={"https://rushibelkunde.github.io/buy-busy/"}
+      <ProjectCard name={"Buy-Busy (E-commerce)"} src={"buy-busy.png"} live={"https://rushibelkunde.github.io/buy-busy/"}
        git={"https://github.com/rushibelkunde/buy-busy/"} skills={["React", "Redux","Firebase"]}/>
 
       <ProjectCard name={"Post"} src={"post.png"} live={"https://post-woad.vercel.app/"}
        git={"https://github.com/rushibelkunde/Post/"} skills={["NextJs", "NextAuth","MongoDB"]} />
 
+      <ProjectCard name={"Todo-App"} src={"todo-app.png"} live={"https://todo-app-rt5p.vercel.app/"} 
+      git={"https://github.com/rushibelkunde/todo-app/"} skills={["React", "Express", "Postgres","JWT"]} />
+
       <ProjectCard name={"App-advertisement"} src={"ads.png"} live={"https://rushibelkunde.github.io/density-assignment/"} 
       git={"https://github.com/rushibelkunde/density-assignment/"} skills={["React", "GSAP-Animation"]} />
 
-<ProjectCard name={"Photo-Folio"} src={"photo.png"} live={"https://rushibelkunde.github.io/photo-folio/"} 
+      <ProjectCard name={"Photo-Folio"} src={"photo.png"} live={"https://rushibelkunde.github.io/photo-folio/"} 
       git={"https://github.com/rushibelkunde/photo-folio/"} skills={["React", "Firebase Storage"]} />
 
 

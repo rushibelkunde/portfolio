@@ -33,7 +33,7 @@ const About = () => {
   },[])
   return (
     <div className='mt-40 container text-white m-auto mb-40 '>
-        <h1 className='text-center text-3xl font-bold' ref={titleRef}>About</h1>
+        <h1 className='text-center text-4xl font-bold' ref={titleRef}>About</h1>
 
         <div className='flex items-center justify-center gap-10 mt-20'>
           <a href="https://instagram.com/rushibelkunde" target='_blank' className='hover:scale-125'>
