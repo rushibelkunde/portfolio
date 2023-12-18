@@ -37,6 +37,9 @@ function Projects() {
 
     <div  className='flex items-center justify-around flex-wrap gap-5 mt-10'>
 
+
+    <ProjectCard name={"Google-Docs-Clone"} src={"docs.png"} live={"https://google-docs-clone-pied-iota.vercel.app/"}
+       git={"https://github.com/rushibelkunde/google-docs-clone/"} skills={["React", "Express","Socket.io","MongoDB"]}/>
       
 
       <ProjectCard name={"Buy-Busy (E-commerce)"} src={"buy-busy.png"} live={"https://rushibelkunde.github.io/buy-busy/"}
