@@ -22,7 +22,7 @@ export const featuredProjects = [
   },
   {
     name: "Todo App",
-    src: "/portfolio/todo-app.png",
+    src: "/portfolio/todo-app-remix.png",
     live: "https://remix-todo-app-one.vercel.app/",
     git: "https://github.com/rushibelkunde/todo-app/",
     tech: ["Remix", "Neon DB", "TailwindCSS"],
